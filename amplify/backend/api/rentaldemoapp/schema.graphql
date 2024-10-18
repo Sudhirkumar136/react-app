@@ -1,0 +1,7 @@
+type CarDataModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String!
+  Rent: Float!
+  Description: String
+  imageURL: String!
+}
